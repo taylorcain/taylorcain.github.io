@@ -24,7 +24,7 @@ html, body {
   height: 100%;
   position: relative;
   text-align: center;
-  background: #002d3f;
+  background: #111;
 }
 .c {
   position: absolute;
@@ -38,7 +38,7 @@ html, body {
 }
 h1 {
   font-family: 'Eina-SemiBold', sans-serif;
-  color: #f9f4a0;
+  color: #fff;
   font-size: 50px;
   font-weight: normal;
 }
