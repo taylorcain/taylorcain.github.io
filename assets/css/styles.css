@@ -24,7 +24,6 @@ html, body {
   height: 100%;
   position: relative;
   text-align: center;
-  background: #111;
 }
 .c {
   position: absolute;
@@ -36,22 +35,23 @@ html, body {
   height: 270px;
   padding: 15px;
 }
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 500px;
+  margin: auto;
+}
 h1 {
   font-family: 'Eina-SemiBold', sans-serif;
-  color: #fff;
-  font-size: 50px;
   font-weight: normal;
+  margin: 0 0 15px 0;
 }
 p {
-  color: rgba(255,255,255,.6);
-  font-size: 22px;
+  color: rgba(0,0,0,.6);
 }
 a {
-  color: #fff;
+  color: #000;
   text-decoration: none;
-}
-a:hover {
-  color: #2b9cef;
 }
 @media (min-width: 800px) {
   .footer .info {
